@@ -48,6 +48,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 [Video Walkthrough GIF created with ...]
+![Screen Recording 2025-07-09 at 11 34 08 PM](https://github.com/user-attachments/assets/2dd6b999-d951-4269-98a9-bfc4bed55285)
+
 
 ## Notes
 
