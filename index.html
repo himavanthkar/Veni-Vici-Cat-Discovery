@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trippin' on Cats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-collage"></div>
+    <div class="main-grid">
+        <!-- History Column -->
+        <aside class="history-col">
+            <h2>Who have we seen so far?</h2>
+            <div id="historyList" class="history-list"></div>
+        </aside>
+
+        <!-- Main Discovery Column -->
+        <main class="center-col">
+            <header>
+                <h1>Trippin' on Cats</h1>
+                <p class="subtitle">Discover cats from your wildest dreams!</p>
+                <div class="emoji-row">😺😹😻😼😽🙀😿😸</div>
+            </header>
+            <section class="cat-discovery">
+                <div class="cat-name" id="catName">Oliver</div>
+                <div class="cat-attributes" id="catAttributes">
+                    <!-- Attribute buttons injected here -->
+                </div>
+                <div class="cat-image-wrapper">
+                    <img id="catImage" src="" alt="Cat" />
+                </div>
+                <button id="discoverBtn" class="discover-btn">Discover!</button>
+            </section>
+        </main>
+
+        <!-- Ban List Column -->
+        <aside class="banlist-col">
+            <h2>Ban List</h2>
+            <p class="ban-description">Select an attribute in your listing to ban it</p>
+            <div id="banList" class="ban-list"></div>
+        </aside>
+    </div>
+    <div id="loading" class="loading-overlay" style="display:none;">
+        <div class="spinner"></div>
+        <p>Finding your next discovery...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

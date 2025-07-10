@@ -1,0 +1,29 @@
+{
+  "name": "veni-vici-cat-discovery",
+  "version": "1.0.0",
+  "description": "A web application similar to StumbleUpon for discovering random cat breeds",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "cat",
+    "discovery",
+    "api",
+    "web-app",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "CodePath Student",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/veni-vici-cat-discovery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/veni-vici-cat-discovery/issues"
+  },
+  "homepage": "https://github.com/yourusername/veni-vici-cat-discovery#readme"
+} 
