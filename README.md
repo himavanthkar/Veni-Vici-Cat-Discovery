@@ -1,4 +1,4 @@
-# Web Development Project 4 - Veni Vici Cat Discovery
+# Veni Vici Cat Discovery
 
 Submitted by: **Himavant Kerpurapu**
 
